@@ -29,7 +29,9 @@ The assessment is not a report I read once. It is the operating system.
 
 ## Shipped
 
-- **mcp-server-apple-events** — MCP server for Apple Calendar and Events.
+- **qwen3-tts** — local text-to-speech server implementing the
+  OpenAI-compatible speech API, plus a voice finetuning pipeline
+  (voice-finetune).
 - **Life-Operating-System** — identity-driven daily planning: tasks scored
   against a weighted value hierarchy, calendar auto-slotted, weekly
   operating-mode review.
