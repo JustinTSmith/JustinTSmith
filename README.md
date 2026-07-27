@@ -18,6 +18,10 @@ The assessment is not a report I read once. It is the operating system.
 
 ## Systems running on my machine right now
 
+Full architecture map with diagrams: [systems](https://github.com/JustinTSmith/systems).
+Five of these pipelines, generalized into installable Claude Code skills:
+[ai-operator-skills](https://github.com/JustinTSmith/ai-operator-skills).
+
 | System | What it does |
 |---|---|
 | Memory spine | Cross-agent persistent memory: every AI session starts with context from prior sessions and an overnight synthesis job that briefs each agent on what the others did |
