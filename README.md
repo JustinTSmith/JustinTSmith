@@ -19,7 +19,7 @@ The assessment is not a report I read once. It is the operating system.
 ## Systems running on my machine right now
 
 Full architecture map with diagrams: [systems](https://github.com/JustinTSmith/systems).
-Five of these pipelines, generalized into installable Claude Code skills:
+Six of these pipelines, generalized into installable Claude Code skills:
 [ai-operator-skills](https://github.com/JustinTSmith/ai-operator-skills).
 
 | System | What it does |
