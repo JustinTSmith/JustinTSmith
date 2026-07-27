@@ -5,8 +5,8 @@ Product leader who ships AI systems.
 Fifteen years leading B2B SaaS product teams (Director of Product at
 Workhuman, Head of Product at Officevibe, Director of Product at
 SuccessFinder). In 2025 I stopped waiting for engineering capacity and
-started building the systems myself. My machine now runs 62 scheduled
-services I wrote or wired together: agent fleets, persistent cross-session
+started building the systems myself. My machine now runs 69 scheduled
+jobs and roughly 90 agents: agent fleets, persistent cross-session
 memory, self-healing infrastructure, and a phone that rings at 7am with a
 briefing my system wrote.
 
