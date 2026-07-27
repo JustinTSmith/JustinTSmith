@@ -56,4 +56,5 @@ Repositioned Acquisio from enterprise to SMB ahead of its sale to Web.com.
 Building PsychBill, a billing automation SaaS for Canadian psychiatrists.
 Open to product leadership roles where AI capability is the product.
 
+[justintsmith.github.io](https://justintsmith.github.io) ·
 justintsmith@gmail.com · [LinkedIn](https://linkedin.com/in/justintsmith)
