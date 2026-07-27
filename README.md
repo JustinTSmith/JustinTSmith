@@ -39,8 +39,6 @@ Five of these pipelines, generalized into installable Claude Code skills:
 - **Life-Operating-System** — identity-driven daily planning: tasks scored
   against a weighted value hierarchy, calendar auto-slotted, weekly
   operating-mode review.
-- **product-langchain** — LangGraph multi-agent PM workflow: research, PRD
-  generation, MVP scaffold, GTM plan.
 - **personal-crm** — relationship pipeline from Gmail and Calendar: fetch,
   filter, AI classify, score, learn.
 - **car-buying-assistant / airline-checkin-skill** — end-to-end purchase
