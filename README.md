@@ -2,13 +2,24 @@
 
 Product leader who ships AI systems.
 
-Fifteen years leading B2B SaaS product teams (Director of Product at
-Workhuman, Head of Product at Officevibe, Director of Product at
-SuccessFinder). In 2025 I stopped waiting for engineering capacity and
-started building the systems myself. My machine now runs 69 scheduled
-jobs and roughly 90 agents: agent fleets, persistent cross-session
-memory, self-healing infrastructure, and a phone that rings at 7am with a
-briefing my system wrote.
+I have worked on AI products for close to a decade, and since 2025 I
+build them as well as direct them.
+
+**2016** shaped requirements for an AI bidding engine at Acquisio and took
+it to market. **2017** led a portfolio of 12 AI startups at Creative
+Destruction Lab, working with Mila, the Quebec AI institute founded by
+Yoshua Bengio. **2019** shipped two ML models into production at Officevibe
+inferring employee sentiment from behavioural data, and directed a PM
+embedded in the internal AI lab. **2021** led a second team deploying
+models to production at Workhuman and established the MLOps process behind
+them. **2025** designed and now operate a production agent platform: 69
+unattended jobs, roughly 90 agents, and a 48-agent automated product
+organization, with model routing decided by measured evaluation rather
+than assumption.
+
+Since April 2025 I have been independent, doing a self-directed technical
+deep-dive into applied AI while caring for a new child full time. This is
+what came out of it.
 
 One detail that explains the approach: I ran a talent-assessment product,
 so when I got my own psychometric profile I used it as an engineering spec.
@@ -24,37 +35,50 @@ Six of these pipelines, generalized into installable Claude Code skills:
 
 | System | What it does |
 |---|---|
+| Product Compass | A 48-agent product and GTM organization with a Chief Product Officer agent routing to eight VPs and Directors, and roughly forty specialists beneath them |
 | Memory spine | Cross-agent persistent memory: every AI session starts with context from prior sessions and an overnight synthesis job that briefs each agent on what the others did |
-| Agent routing | LLM classifier routes each incoming Telegram message to the right agent and model (operator, coach, strategist) before any conversation logic runs |
+| Model routing | Local models serve mechanical work; judgment escalates to frontier models, with the line set by a 20-trial evaluation harness rather than a guess |
 | Voice pipeline | One press of the iPhone Action Button: transcribed, classified into 8 categories, filed into my knowledge vault in seconds |
-| Briefing chain | Daily briefing delivered as Telegram message and outbound phone call; four parallel weekly intelligence scans (AI infrastructure, sales, competitors, client verticals) |
-| Self-healing infra | Watchdog daemons monitor the AI services and restart them on failure; nightly security review; platform health checks with hourly git push |
-| Agent companies | 13 AI companies on Paperclip, including a billing SaaS in active development; I wrote the OpenRouter adapter that gives every agent a full tool-calling loop |
+| Research to audio | Four parallel weekly intelligence scans become a written briefing and a podcast-style audio overview |
+| Agent security | Two-stage prompt injection defense, outbound secret and PII redaction, and a nightly council of four adversarial analysts |
+| Self-healing infra | Watchdog daemons restart dead services; nightly diagnosis with a drill-and-heal interface on every finding |
 
 ## Shipped
 
-- **qwen3-tts** — local text-to-speech server implementing the
-  OpenAI-compatible speech API, plus a voice finetuning pipeline
-  (voice-finetune).
-- **Life-Operating-System** — identity-driven daily planning: tasks scored
+- **Life-Operating-System** identity-driven daily planning: tasks scored
   against a weighted value hierarchy, calendar auto-slotted, weekly
   operating-mode review.
-- **personal-crm** — relationship pipeline from Gmail and Calendar: fetch,
+- **personal-crm** relationship pipeline from Gmail and Calendar: fetch,
   filter, AI classify, score, learn.
-- **car-buying-assistant / airline-checkin-skill** — end-to-end purchase
+- **ai-operator-skills** six Claude Code skills distilled from pipelines I
+  actually run.
+- **qwen3-tts** local text-to-speech server implementing the
+  OpenAI-compatible speech API, plus a voice finetuning pipeline.
+- **car-buying-assistant / airline-checkin-skill** end-to-end purchase
   agent; auto check-in across 8 airlines.
 
-## Product track record
+## Track record
 
+**AI and ML in production, at employers**
+Shipped two ML models inferring employee sentiment from latent behavioural
+data at Officevibe, in a category built on surveys. Established the MLOps
+process at Workhuman for moving research models into production; highest
+impact model shipped was adverse psychological bias detection in user
+messaging. Shaped requirements for an AI PPC bidding engine at Acquisio and
+owned how it reached market. Led 12 AI startups at Creative Destruction Lab
+alongside Mila researchers.
+
+**Product outcomes**
 Signup-to-activation 11% to 31% in 4 months (Workhuman). PQL conversion up
-50% and NPS up 15 points (Officevibe). Relaunched a psychometric assessment
+50% and NPS up 15 points (Officevibe), while pivoting the product and
+retaining roughly 100% of clients. Relaunched a psychometric assessment
 product in 9 months, $650K bookings before full launch (SuccessFinder).
 Repositioned Acquisio from enterprise to SMB ahead of its sale to Web.com.
 
 ## Now
 
-Building PsychBill, a billing automation SaaS for Canadian psychiatrists.
-Open to product leadership roles where AI capability is the product.
+Building PsychBill, billing automation for Canadian psychiatrists. Open to
+product leadership roles where AI capability is the product.
 
 [justintsmith.github.io](https://justintsmith.github.io) ·
 justintsmith@gmail.com · [LinkedIn](https://linkedin.com/in/justintsmith)
