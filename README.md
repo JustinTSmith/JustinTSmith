@@ -53,8 +53,6 @@ Six of these pipelines, generalized into installable Claude Code skills:
   actually run.
 - **qwen3-tts** local text-to-speech server implementing the
   OpenAI-compatible speech API, plus a voice finetuning pipeline.
-- **car-buying-assistant / airline-checkin-skill** end-to-end purchase
-  agent; auto check-in across 8 airlines.
 
 ## Track record
 
