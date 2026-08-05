@@ -12,7 +12,7 @@ Yoshua Bengio. **2019** shipped two ML models into production at Officevibe
 inferring employee sentiment from behavioural data, and directed a PM
 embedded in the internal AI lab. **2021** led a second team deploying
 models to production at Workhuman and established the MLOps process behind
-them. **2025** designed and now operate a production agent platform: 69
+them. **2025** designed and now operate a production agent platform: 73
 unattended jobs, roughly 90 agents, and a 48-agent automated product
 organization, with model routing decided by measured evaluation rather
 than assumption.
