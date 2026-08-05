@@ -40,7 +40,6 @@ Six of these pipelines, generalized into installable Claude Code skills:
 | Model routing | Local models serve mechanical work; judgment escalates to frontier models, with the line set by a 20-trial evaluation harness rather than a guess |
 | Voice pipeline | One press of the iPhone Action Button: transcribed, classified into 8 categories, filed into my knowledge vault in seconds |
 | Research to audio | Four parallel weekly intelligence scans become a written briefing and a podcast-style audio overview |
-| Agent security | Two-stage prompt injection defense, outbound secret and PII redaction, and a nightly council of four adversarial analysts |
 | Self-healing infra | Watchdog daemons restart dead services; nightly diagnosis with a drill-and-heal interface on every finding |
 
 ## Shipped
