@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: single-run-noise-contract
+expected_outcome: |
+  Spots that the 3-point gaps on 30 single-run tasks are within noise; does not endorse Opus outright; notes untested Haiku thinking config and cost per outcome.

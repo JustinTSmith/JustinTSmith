@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: cost-cut-switch-down
+expected_outcome: |
+  Does not endorse the downgrade on price alone; frames cost per successful outcome; considers config dials for latency; builds eval from thumbs-down and tickets.
