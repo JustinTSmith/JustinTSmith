@@ -34,7 +34,9 @@ The user is often a PM or builder who owns the product outcome. Keep it executiv
 
 7. **Plan the read-through.** Someone must read failure transcripts before reading averages. Confirm tracing captures system prompt, tool calls and tool results. Name the prompt-tuning step: read the vendor's prompting guide and re-tune prompts per model, since the same prompt can under- or over-trigger a tool across versions.
 
-8. **Write the memo** in the format below. If results already exist, apply the decision rule to them and say what is and isn't established.
+8. **Plan the rollout** if the candidate passes (skip for a greenfield pick). A passing eval is not a production guarantee, so switch behind a feature flag, run a shadow test or send 5 to 10% of traffic first, and ramp while watching the same three metrics. Keep the current model as an instant fallback (including on timeouts near the latency limit), and don't bundle the change with other releases so any regression is attributable. When results are mixed, consider routing by difficulty: cheaper or faster model for the easy majority, stronger model for hard or low-confidence cases. Test the router as its own config.
+
+9. **Write the memo** in the format below. If results already exist, apply the decision rule to them and say what is and isn't established.
 
 ## Output format
 
@@ -61,6 +63,9 @@ Quality / Latency p50-p95 / Cost per successful outcome / Runs per task
 
 ## Risks to the result
 - Top 3 pitfalls from the gotchas list that apply here
+
+## Rollout (if it passes)
+Flag or shadow test, traffic ramp, fallback, rollback trigger. Mention routing if results are mixed.
 
 ## Next 3 steps
 
